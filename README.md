@@ -1,8 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 CodePairArena
 
-## Getting Started
+Welcome to **CodePairArena**! An interactive, real-time collaborative coding platform designed to bring developers together. Whether you're pair programming, conducting technical interviews, or hosting group coding sessions, CodePairArena provides a seamless, immersive environment.
 
-First, run the development server:
+![CodePairArena Banner](./1.png)
+
+## ✨ Features
+
+- **🧑‍💻 Real-Time Collaborative Editor**: Write and edit code together in real-time with Monaco Editor (the engine that powers VS Code).
+- **🎥 Integrated Group Sessions**: Full-mesh WebRTC communication allows multi-party video and audio calls directly within the platform.
+- **🖥️ Screen Sharing**: Easily share your screen or application window with other participants.
+- **⚡ Fast & Responsive**: Built with Next.js and React for blazing fast performance.
+- **🎨 Beautiful UI**: A stunning, animated user interface crafted with Tailwind CSS and Framer Motion.
+- **🔄 State Management**: Robust state handling across sessions using Redux Toolkit.
+- **🔌 Real-Time Signaling**: Low-latency event broadcasting and real-time syncing using Socket.io.
+
+## 🛠️ Tech Stack
+
+- **Frontend Framework**: [Next.js](https://nextjs.org/) (React 18)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Code Editor**: [@monaco-editor/react](https://github.com/suren-atoyan/monaco-react)
+- **Real-Time Communication**: [Socket.io Client](https://socket.io/) & WebRTC
+- **State Management**: [Redux Toolkit](https://redux-toolkit.js.org/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+
+## 🚀 Getting Started
+
+First, ensure you have the backend (Socket.io/WebRTC signaling server) running. Then, to start the frontend development server:
 
 ```bash
 npm run dev
@@ -16,21 +40,25 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Here is a glimpse of what CodePairArena looks like:
 
-## Learn More
+### Application Interface
+![Screenshot 1](./1.png)
+![Screenshot 2](./2.png)
+![Screenshot 3](./3.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Group Sessions & Collaboration
+![Screenshot 4](./4.png)
+![Screenshot 5](./5.png)
+![Screenshot 6](./6.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Real-Time Features
+![Screenshot 7](./7.png)
+![Screenshot 8](./8.png)
+![Screenshot 9](./9.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🤝 Contributing
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contributions are always welcome! Feel free to open an issue or submit a pull request if you have ideas on how to improve CodePairArena.
