@@ -59,6 +59,4 @@ Here is a glimpse of what CodePairArena looks like:
 ![Screenshot 8](./8.png)
 ![Screenshot 9](./9.png)
 
-## 🤝 Contributing
 
-Contributions are always welcome! Feel free to open an issue or submit a pull request if you have ideas on how to improve CodePairArena.
